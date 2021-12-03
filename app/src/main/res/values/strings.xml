@@ -6,4 +6,9 @@
     <string name="implicit_button">Implicit Button</string>
     <string name="back_button">Back</string>
     <string name="list_view_button">List View</string>
+    <string name="recycler_view_button">Recycler View</string>
+    <string name="fragment_activity">Fragment Activity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_to_second_fragment">First To Second Fragment</string>
 </resources>

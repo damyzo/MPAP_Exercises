@@ -14,12 +14,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        //View Components
         val firstButton: Button = findViewById(R.id.firstButton)
         val nameControl: TextView = findViewById(R.id.name)
         val implicitButton: Button = findViewById(R.id.implicitButton)
         val listViewButton: Button = findViewById(R.id.listViewButton)
+        val recyclerViewButton: Button = findViewById(R.id.recyclerViewButton)
+        val fragmentButton: Button = findViewById(R.id.fragmentActivityButton)
 
+        //Listeners
         firstButton.setOnClickListener(){
             val firstIntent = Intent(this, FirstActivity::class.java)
             val nameValue = nameControl.text
@@ -42,7 +45,15 @@ class MainActivity : AppCompatActivity() {
             startActivity(thirdIntent)
         }
 
+        recyclerViewButton.setOnClickListener(){
+            val recyclerViewIntent = Intent(this, RecyclerViewActivity::class.java)
+            startActivity(recyclerViewIntent)
+        }
 
+        fragmentButton.setOnClickListener(){
+            val fragmentIntent = Intent(this, FragmentActivity::class.java)
+            startActivity(fragmentIntent)
+        }
     }
 
 

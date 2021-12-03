@@ -5,9 +5,14 @@
       <map>
         <entry key="..\:/Fakultet/MPIP/Test/MyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.18981481481481483" />
         <entry key="..\:/Fakultet/MPIP/Test/MyApplication/app/src/main/res/layout/activity_first.xml" value="0.2" />
+        <entry key="..\:/Fakultet/MPIP/Test/MyApplication/app/src/main/res/layout/activity_fragment.xml" value="0.25" />
         <entry key="..\:/Fakultet/MPIP/Test/MyApplication/app/src/main/res/layout/activity_list_view.xml" value="0.1" />
-        <entry key="..\:/Fakultet/MPIP/Test/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Fakultet/MPIP/Test/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Fakultet/MPIP/Test/MyApplication/app/src/main/res/layout/activity_recycler_view.xml" value="0.25" />
+        <entry key="..\:/Fakultet/MPIP/Test/MyApplication/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/Fakultet/MPIP/Test/MyApplication/app/src/main/res/layout/fragment_second.xml" value="0.1" />
         <entry key="..\:/Fakultet/MPIP/Test/MyApplication/app/src/main/res/layout/list_view_row.xml" value="0.5" />
+        <entry key="..\:/Fakultet/MPIP/Test/MyApplication/app/src/main/res/layout/recycler_view_row.xml" value="0.5" />
       </map>
     </option>
   </component>
