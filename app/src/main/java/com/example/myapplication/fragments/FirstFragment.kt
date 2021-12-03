@@ -27,6 +27,7 @@ class FirstFragment : Fragment() {
             activity?.supportFragmentManager
                 ?.beginTransaction()
                 ?.replace(R.id.container,SecondFragment())
+                ?.addToBackStack("Second")
                 ?.commit()
 
         }
