@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val firstButton: Button = findViewById(R.id.firstButton)
         val nameControl: TextView = findViewById(R.id.name)
         val implicitButton: Button = findViewById(R.id.implicitButton)
+        val listViewButton: Button = findViewById(R.id.listViewButton)
 
         firstButton.setOnClickListener(){
             val firstIntent = Intent(this, FirstActivity::class.java)
@@ -33,6 +34,12 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(secondIntent)
 
+        }
+
+        listViewButton.setOnClickListener(){
+            val thirdIntent = Intent(this, ListViewActivity::class.java)
+
+            startActivity(thirdIntent)
         }
 
 

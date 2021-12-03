@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="text_insert" >Insert text</string>
-    <string name="redirect_first_button" >Redirect to First Activity</string>
+    <string name="text_insert">Insert text</string>
+    <string name="redirect_first_button">Redirect to First Activity</string>
     <string name="first_activity">First Activity</string>
     <string name="implicit_button">Implicit Button</string>
+    <string name="back_button">Back</string>
+    <string name="list_view_button">List View</string>
 </resources>
